@@ -17,13 +17,20 @@ The program uses the example of 4 image patches which is used to test whether an
   <img src="./sample/shuffled.png">
 </p>
 
-Each patch corresponds to particular confidence maps whose order is changed with the shuffle:
+Each patch corresponds to particular confidence maps, where each confidence map represents the spatial position of each patch. For example, patch 1 corresponds to map 0 as the top left patch is located in the top left:
 
 <p align ="center">
   <img src="./sample/cms.png">
 </p>
 
+Using this principle, a simple unet was trained whose architecture is as follows:
+
 <p align ="center">
-  <img src="./sample/shuffledcms.png">
+  <img src="./sample/unet.png">
 </p>
 
+After training for 20 epochs, the model was tested with the ```reassembler()``` (sanity check which reassembles the image based on the confidence maps), and showed that every shuffled image within the dataset could be reassembled: 
+
+<p align ="center">
+  <img src="./sample/reshuffled.png">
+</p>
