@@ -13,4 +13,4 @@ The purpose of this program is to divide images into patches and shuffle them, a
 
 The program uses the example of 4 image patches which is used to test whether an image's spatial features can be learned. By using the ```plot_shuffle()``` function, the mnist image is divided into patches and shuffled.
 
-![Unshuffled](./sample/unshuffled.png),![Shuffled](./sample/shuffled.png)
+![Shuffled](./sample/shuffled.png)
