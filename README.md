@@ -17,4 +17,13 @@ The program uses the example of 4 image patches which is used to test whether an
   <img src="./sample/shuffled.png">
 </p>
 
+Each patch corresponds to particular confidence maps whose order is changed with the shuffle:
+
+<p align ="center">
+  <img src="./sample/cms.png">
+</p>
+
+<p align ="center">
+  <img src="./sample/shuffledcms.png">
+</p>
 
