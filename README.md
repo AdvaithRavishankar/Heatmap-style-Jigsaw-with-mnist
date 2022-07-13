@@ -1,5 +1,5 @@
-# Heatmap-style-Jigsaw-with-mnist
-This repository contains the implementation of Heatmap-Style Jigsaw Puzzle presented by [Kun Zhang](https://arxiv.org/abs/2012.07101) for the purpose of 2D-pose estimation in human beings.
+# Heatmap-Style Jigsaw Applied to Mnist
+This repository contains the implementation of Heatmap-Style Jigsaw Puzzle presented by [Kun Zhang et al.2020](https://arxiv.org/abs/2012.07101) for the purpose of 2D-pose estimation in human beings.
 
 This repository provides a framework to create this implementation with the MNIST dataset.
 
@@ -34,3 +34,7 @@ After training for 20 epochs, the model was tested with the ```reassembler()``` 
 <p align ="center">
   <img src="./sample/reshuffled.png">
 </p>
+
+# References
+
+[1] Zhang, K., Wu, R., Yao, P., Deng, K., Li, D., Liu, R., Yang, C., Chen, G., Du, M., &amp; Zheng, T. (2020, December 13). Learning heatmap-style jigsaw puzzles provides good pretraining for 2D human pose estimation. arXiv.org. Retrieved July 13, 2022, from https://arxiv.org/abs/2012.07101 
